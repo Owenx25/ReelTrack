@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "target": "es2016",
+      "lib": [
+        "es6",
+        "dom"
+      ],
+      "outDir": "ts-out",
+      "sourceMap": true,
+      "types": [
+        // add node as an option
+        "node",
+        "discord.js",
+        "jest",
+        "node-fetch",
+        "mongodb",
+        "mongoose"
+      ],
+      "typeRoots": [
+        // add path to @types
+        "node_modules/@types",
+        "node_modules/discordjs/typings"
+      ],
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+    },
+    "exclude": [
+      "node_modules"
+    ]
+  }

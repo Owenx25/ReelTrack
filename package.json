@@ -1,0 +1,35 @@
+{
+  "name": "reeltrack",
+  "version": "1.0.0",
+  "description": "Track movies to watch with your friends!",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node ts-out/src/index.js",
+    "watch": "tsc -p tsconfig.json -w",
+    "test": "jest",
+    "clean": "rm -r ./ts-out/*"
+  },
+  "author": "Owen McCormack",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongodb": "^3.5.20",
+    "@types/mongoose": "^5.7.22",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.5.8",
+    "mongoose": "^5.9.18",
+    "node": "^14.4.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@types/node": "^13.13.10",
+    "@types/node-fetch": "^2.5.7",
+    "eslint": "^6.8.0",
+    "jest": "<26.0.0",
+    "jest-fetch-mock": "^3.0.3",
+    "ts-jest": "^25.5.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
