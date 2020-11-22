@@ -6,4 +6,6 @@ All commands for the bot must be prepended with "::".
 Example Commands
 ::lookup [Movie name]
 - This command will query the OMDB API for information about the movie and repy in the channel with an embed.
-![alt text](screenshots/list.png)
+<p float="left">
+<img src="./screenshots/lookup.png" width="500">
+</p>
